@@ -38,7 +38,7 @@ class Song
     binding.pry
     genres = {}
     @@genres.each do |genre|
-      binding.pry
+      #binding.pry
     end
   end
 
