@@ -36,8 +36,8 @@ class Song
 
   def self.genre_count
     binding.pry
-  #  genres = {}
-      #g = @@genres.each {|genre| }
+      genres = {}
+      g = @@genres.each {|genre| }
   end
 
 
