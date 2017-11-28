@@ -36,17 +36,17 @@ class Song
 
   def self.genre_count
     #binding.pry
-    genres = {}
+    genre_count = {}
     @@genres.each do |genre|
       #binding.pry
-      if !genres[genre]
-        genres[genre] = 1
+      if !genre_count[genre]
+        genre_count[genre] = 1
       else
-        genres[genre] += 1
+        genre_count[genre] += 1
       end
       #{:rap => 2,  :pop=>1}
     end
-    genres
+    genre_count
   end
 
 
