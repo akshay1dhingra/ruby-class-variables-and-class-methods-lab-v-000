@@ -46,6 +46,7 @@ class Song
       end
       #{:rap => 2,  :pop=>1}
     end
+    genres
   end
 
 
