@@ -39,6 +39,12 @@ class Song
     genres = {}
     @@genres.each do |genre|
       #binding.pry
+      if !genres[genre]
+        genres[genre] = 1
+      else
+        genres[genre] += 1
+      end
+      #{:rap => 2,  :pop=>1}
     end
   end
 
